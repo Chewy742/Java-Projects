@@ -1,0 +1,12 @@
+For the TwoStackQueue, 
+
+the enqueue method is always the same- it is O(1) and requires a simple push onto the "enqueue" stack.
+
+The dequeue method will vary somewhat. At times when the dequeue stack is empty, the dequeue stack will push onto itself all the 
+data from the enqueue stack, in order to reverse the order so that the first item in is now the first to be removed (like a queue). 
+This part is order O(N) time, because the time to pop everything off and push it on another grows with the size of the enqueue stack . 
+
+At that point, the dequeue method will not need to do anything until it is empty- until a user has called dequeue enough times to get rid 
+of all the items that were pushed onto the dequeue stack. This means its of O(1) time, where the user can just pop off until the dequeue stack 
+is empty. At this point, if the dequeue stack is empty, but there are items in the enqueue stack, the dequeue stack will need to take all the data from the 
+enqueue stack again, which is the same function as the first time we dequeued (O(N)). 
