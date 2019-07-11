@@ -1,0 +1,58 @@
+// Insert your write up of programming problem 3 here.
+
+First run times are often larger- I won't really include them in my analysis
+                //Part A Results
+
+The partA program for n of 20 ran at a time of 9696
+The partA program for n of 40 ran at a time of 16937
+The partA program for n of 80 ran at a time of 27181
+The partA program for n of 160 ran at a time of 48250
+The partA program for n of 1000 ran at a time of 270382
+The partA program for n of 2000 ran at a time of 576566
+The partA program for n of 4000 ran at a time of 1081349
+The partA program for n of 8000 ran at a time of 2130137
+The partA program for n of 16000 ran at a time of 4256205
+
+- Explanation/Discussion:
+
+   This part of the problem agrees with my answer of a run time of O(N) because with a two fold 
+   increase in sample size the program takes approx. two times longer to run- especially for larger #'s, this
+   holds true. 
+                    Part B Results: 
+
+The partB program for n of 10 ran at a time of 11157
+The partB program for n of 20 ran at a time of 4977
+The partB program for n of 40 ran at a time of 14577
+The partB program for n of 80 ran at a time of 49097
+The partB program for n of 160 ran at a time of 179548
+The partB program for n of 1000 ran at a time of 6019767
+The partB program for n of 2000 ran at a time of 23975626
+The partB program for n of 4000 ran at a time of 104721242
+The partB program for n of 8000 ran at a time of 374223937
+The partB program for n of 16000 ran at a time of 1496384595
+
+Explanation/Discussion: 
+
+    This part of the problem also agrees with O(N) of n^2 because a two fold increase in sample size takes approx
+    4 times longer to run- note the change from 20 to 40 to 80 to 160 and changes from 1000 to 2000 and 
+    4000 to 8000 as especially representative of this process. 
+    
+                    Part C Results:
+The foo (partC) program for n of 10 ran at a time of 23524
+The foo (partC) program for n of 20 ran at a time of 1575
+The foo (partC) program for n of 40 ran at a time of 1777
+The foo (partC) program for n of 80 ran at a time of 1797
+The foo (partC) program for n of 160 ran at a time of 1957
+The foo (partC) program for n of 1000 ran at a time of 2228
+The foo (partC) program for n of 2000 ran at a time of 2624
+The foo (partC) program for n of 4000 ran at a time of 2611
+The foo (partC) program for n of 8000 ran at a time of 2576
+The foo (partC) program for n of 16000 ran at a time of 2793
+
+Explanation/Discussion: 
+    
+    This part of the problem agrees with O(logN), and you can see (apart from the first
+    outlier that is Java's fault) that the run time only significantly increases with the order of power increase 
+    from 10's of sample sizes to 1000's of sample sizes. This is clearly not O(N) time, but not constant time. 
+    
+
