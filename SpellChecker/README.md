@@ -1,8 +1,8 @@
 # Spell Checker and Priority Queues
 
-Implemented a Spell Checker, using a HashSet, as well as providing suggestions. Then moved on to Priority Queues to implement a tracker that maintains the largest elements of a changing list. Broken into two problems. 
+Implemented a Spell Checker, using a HashSet, as well as providing suggestions. 
 
-## Problem 1 - Implementing a Spell Checker - 35 points
+## Implementing a Spell Checker 
 
 Implement a spelling checker by using a hash table. You will create a class called SpellChecker in the file SpellChecker.java.  The object will try to check for spelling errors in an input file by attempting to find each word in the file in a provided dictionary. The SpellChecker object will take one input to its constructor.
 
@@ -28,17 +28,3 @@ You will also write a main method in the Problem1.java file to test the function
 
 We have provided you a sample test file to spell check. This file is called test.txt. The correct output of the SpellCheckerTester.java file for the given test.txt file has also been provided to you; the file is called output.txt. Ensuring that your output matches the one we provided does not guarantee full credit. However, it is a does indicate that your project meets at least some of the requirements.
 
-## Problem 2 - k-Largest Values - 30 points
-
-Finding the k-largest values in a set of data - Assume you are given a sequence of values. We do not know how many elements there are in this sequence. In fact, there could be infinitely many. Implement the class
-```KBestCounter<T extends Comparable<? super T>> implements KBest<T>``` that keeps track of the k-largest elements seen so far in a set of data. The class should have two methods:
-
-* ```public void count(T x)``` - process the next element in the set of data. This operation should run in the at worst O(log k) time.
-
-* ```public List<T> kbest()``` - return a sorted (largest to smallest) list of the klargest elements. This should run in O(k log k) time. The method should restore the priority queue to its original state after retrieving the k largest elements. If you run this method twice in a row, it should return the same values.
-
-Be aware that your KBestCounter.java class must implement the provided interface KBest.java. This is to ensure that your method declarations are correct at the time of submission. Under no circumstance should you edit the KBest.java file.
-
-Use a Priority Queue to implement this functionality. We suggest using the built-in java.util.PriorityQueue, which implements a min-heap for you. You should NEVER have more than k elements inserted into the Priority Queue at any given time.
-
-An example illustrates how KBestCounter could be used in this attached tester class: TestKBest.java.  We also include a skeleton for the KBestCounter class in the following file: KBestCounter.java.
