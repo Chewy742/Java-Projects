@@ -1,9 +1,6 @@
-# Homework 1
+## Simple Project
 
-## Due Friday, September 21th at 4:00pm. 
-
-Please remember that to submit the assignment you will need to the Education drop down menu and select 
-assignment complete.
+A relatively simple implementation of a rectangle class that teaches Comparable and other basic Java concepts. Broken into parts. 
 
 
 ## Problem 1 - 18 points
@@ -61,8 +58,3 @@ then after each fragment place:
 long endTime = System.nanoTime();
 
 The elapsed time is the difference between these two variables.
-
-## Problem 4 
-
-Update a file called STUDENTREADME.md with information on how to compile and run each problem from the command line in the codio terminal. You can also use the space to let the TAs know about any other assumptions
-you made while writing your solutions.
