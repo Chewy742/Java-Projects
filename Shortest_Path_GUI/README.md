@@ -1,11 +1,8 @@
-# Homework 5 Programming
+# Path GUI's
 
-## Due Monday, December 10 at 11:59pm.
+Here's a project that involved using Djikstra's to find the shortest path on a map interface. Read below for project descriptions. 
 
-Please remember that to submit the assignment you will need to the Education drop down menu and select 
-assignment complete.   
-
-## Problem 1 - Dijkstra's Algorithm - 52 points
+## Dijkstra's Algorithm
 
 In this problem you will implement Dijkstra's algorithm to find shortest paths between pairs of cities on a map. We are providing a GUI that lets you visualize the map and the path your algorithm finds between two cities.
 
@@ -28,7 +25,3 @@ You will only have to modify Dijkstra.java, which represents a graph and will co
 * Implement the method getDijkstraPath(String s, String t), which first calls doDijstra(s) and then uses the distance and prev instance variables of the Vertex objects to find the shortest path between s and t. The resulting path should be returned as a list of Edge objects. Once this works correctly, you should be able to compute and display paths in the GUI.
 
 Note: Your program must work for repeated runs of dijkstra's algorithms on different city pairs.  To make sure that your program does this, be sure that you reinitialize the booking fields (known, prev, and distance) in the vertices stored in vertexNames at the beginning of each run of doDijkstra. 
-
-## Problem 2 - The Readme File
-
-Please fill in the STUDENTREADME.md file which should indicate exactly what files you are submitting, what problem they solve, and how to compile and run them. This is also a good place to tell us any assumptions or special issues associated with your submission.
