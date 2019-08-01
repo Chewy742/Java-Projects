@@ -1,10 +1,6 @@
-# Homework 2
+# Stacks and Queues
 
-## Due Thursday, October 11th at 11:59pm.
-
-Please remember that to submit the assignment you will need to the Education drop down menu and select 
-assignment complete.   Also remember that you should submit a txt file on canvas that indicates your codio username
-so that we can cross check our grade data entry.
+Classic Computer Science problems such as Symbol Balance and TwoStackQueues solved using the classic data structures- stacks and queues. Also involves maintaining proper big-O runtimes/efficiency. 
 
 ## Problem 1 - Symbol Balance - 30 points
 
@@ -77,7 +73,3 @@ For your stacks, use the MyStack class that you implemented in the first problem
 Your tester should try different examples than the ones from this sample.
 
 * In a file called Problem2.txt, discuss the big-O running time of the enqueue and dequeue operation for your queue implementation. (Hint: one of these operations should always be O(1) the other can vary a bit, but shouldn't always be O(N)).
-
-## Problem 3 - The Readme File
-
-Please fill in the STUDENTREADME.md file which should indicate exactly what files you are submitting, what problem they solve, and how to compile and run them. This is also a good place to tell us any assumptions or special issues associated with your submission.
