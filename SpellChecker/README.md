@@ -1,9 +1,6 @@
-# Homework 4 Programming
+# Spell Checker and Priority Queues
 
-## Due Wednesday, November 28 at 11:59pm. With a late deadline *4* days later.
-
-Please remember that to submit the assignment you will need to the Education drop down menu and select 
-assignment complete.
+Implemented a Spell Checker, using a HashSet, as well as providing suggestions. Then moved on to Priority Queues to implement a tracker that maintains the largest elements of a changing list. Broken into two problems. 
 
 ## Problem 1 - Implementing a Spell Checker - 35 points
 
@@ -45,7 +42,3 @@ Be aware that your KBestCounter.java class must implement the provided interface
 Use a Priority Queue to implement this functionality. We suggest using the built-in java.util.PriorityQueue, which implements a min-heap for you. You should NEVER have more than k elements inserted into the Priority Queue at any given time.
 
 An example illustrates how KBestCounter could be used in this attached tester class: TestKBest.java.  We also include a skeleton for the KBestCounter class in the following file: KBestCounter.java.
-
-## Problem 3 - The Readme File
-
-Please fill in the STUDENTREADME.md file which should indicate exactly what files you are submitting, what problem they solve, and how to compile and run them. This is also a good place to tell us any assumptions or special issues associated with your submission.
