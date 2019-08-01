@@ -1,11 +1,8 @@
-# Homework 3 Programming
+# Trees
 
-## Due Thursday, November 1st at 11:59pm. 
+Used different types of Trees to solve problems- expression trees to calculate the value of expressions, as well as using AVL trees to index a text file. 
 
-Please remember that to submit the assignment you will need to go to the Education drop down menu and select 
-assignment complete.
-
-## Problem 1 - Implementing Expression Trees - 35 points
+## Implementing Expression Trees
 
 Implement a class called *ExpressionTree* in the provided ExpressionTree.java file. The constructor to ExpressionTree will take in a String that contains a postfix expression. The operands will be integers and the binary operators will be restricted to +, -, *, and /. Individual tokens, that is, the operands and operators, will be delimited by spaces. So for example:
 
@@ -27,7 +24,7 @@ We have provided a skeleton of ExpressionTree.java; fill in all the parts as nee
 
 Fill in the class Problem1.java (specifically, its main method) such that it instantiates an expression tree on a hard coded string representing a postfix expression tree, and demonstrate all of the methods listed above.
 
-## Problem 2 - Indexing Text with an AVL Tree - 30 points
+##  Indexing Text with an AVL Tree 
 
 Fill in the class FileAvl.java such that it indexes the words contained in a text file. The constructor of the FileAvl object should take in the file name as a parameter. It will then go through the input file line by line. For each line, it extracts each word, and inserts that word along with its line number into an AVL tree. Each element of the AVL tree should contain a unique word and a java.util.LinkedList of line numbers where that word occurs.
 
@@ -51,8 +48,3 @@ Finally, in the file Problem2.java, write a main method to create an instance of
 
 I've provided a very simple file called ```test.txt``` that you can use to test your program.  I've also provided a file called ```output.txt``` which contains the correct output for the program on the ```test.txt``` file.  I've also provided a much larger test file called ```frank.txt```. For the larger test file I will not be providing sample output.  
 
-The TAs will test your code on a variety of additional test files.
-
-## Problem 3 - The Readme File
-
-Please fill in the STUDENTREADME.md file which should indicate exactly what files you are submitting, what problem they solve, and how to compile and run them. This is also a good place to tell us any assumptions or special issues associated with your submission.
