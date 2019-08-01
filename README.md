@@ -2,7 +2,7 @@
 Classroom and personal projects coded in Java. Short descriptions of the projects are seen below, and README's are available for more information. 
 
 ## Shortest_Path_GUIs 
-- a project that involved using shortest path algorithms in order to display the route lengths and shortest distances between cities portrayed on a map GUI. 
+- A project that involved using shortest path algorithms in order to display the route lengths and shortest distances between cities portrayed on a map GUI. 
 
 ## Trees 
 - Expression trees evaluating post-fix expression using stacks and AVL trees.
@@ -17,5 +17,5 @@ Classroom and personal projects coded in Java. Short descriptions of the project
 - Used two fundamental data structures to implement a symbol balancing file to point out symbol discrepancies in java files, as well as an implementation of a TwoStackQueue. 
 
 ## Simple Comparable/Search 
-- a basic coding project that involved learning Comparables and recursion to search for  values. 
+- A basic coding project that involved learning Comparables and recursion to search for  values. 
 
